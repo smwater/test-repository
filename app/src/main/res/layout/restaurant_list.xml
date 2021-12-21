@@ -11,7 +11,7 @@
         android:background="#0099FF"/>
 
     <TextView
-        android:id="@+id/textResName"
+        android:id="@+id/textRestName"
         android:text="소문난 해물칼국수"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -28,8 +28,8 @@
         android:src="@drawable/map"
         android:layout_width="10dp"
         android:layout_height="10dp"
-        android:layout_below="@+id/textResName"
-        android:layout_alignLeft="@+id/textResName"/>
+        android:layout_below="@+id/textRestName"
+        android:layout_alignLeft="@+id/textRestName"/>
 
     <TextView
         android:id="@+id/textAddress"

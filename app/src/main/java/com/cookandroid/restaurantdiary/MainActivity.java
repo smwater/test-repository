@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<myGroup> DataList = new ArrayList<myGroup>();
         listView = findViewById(R.id.diaryList);
         myGroup temp = new myGroup("소문난 해물 칼국수", "원주시 단계동", "033-766-8810");
-        temp.child.add("돈까스");
+        temp.child.add(1, "돈까스");
+        temp.child.add(2, "백쌤");
         temp.child.add("해물칼국수");
         temp.child.add("보쌈");
         DataList.add(temp);

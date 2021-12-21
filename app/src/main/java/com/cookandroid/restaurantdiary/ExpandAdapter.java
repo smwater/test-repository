@@ -30,7 +30,7 @@ public class ExpandAdapter extends BaseExpandableListAdapter {
         if(convertView == null){
             convertView = myinf.inflate(this.groupLayout, parent, false);
         }
-        TextView restaurantName = (TextView)convertView.findViewById(R.id.textResName);
+        TextView restaurantName = (TextView)convertView.findViewById(R.id.textRestName);
         TextView address = (TextView)convertView.findViewById(R.id.textAddress);
         TextView tel = (TextView)convertView.findViewById(R.id.textTel);
         restaurantName.setText(DataList.get(groupPosition).restaurantName);
