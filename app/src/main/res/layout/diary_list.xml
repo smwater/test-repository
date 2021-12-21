@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/textDate"
+        android:text="12/21"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_width="30dp"
+        android:layout_height="15dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+    
+    <ImageView
+        android:background="#7FFFFFFF"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/textMenu"
+        android:text="돈까스"
+        android:textSize="12sp"
+        android:textColor="#E5E500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="50dp"/>
+
+    <TextView
+        android:id="@+id/textWith"
+        android:text="With"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:background="#440099"
+        android:gravity="center"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textMenu"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/textFriend"
+        android:text="백쌤"
+        android:textSize="8sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textWith"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

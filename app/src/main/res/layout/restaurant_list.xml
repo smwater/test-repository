@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#EEEEEE">
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="50dp"
+        android:background="#0099FF"/>
+
+    <TextView
+        android:id="@+id/textResName"
+        android:text="소문난 해물칼국수"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"/>
+
+    <ImageView
+        android:id="@+id/imgMapIcon"
+        android:src="@drawable/map"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/textResName"
+        android:layout_alignLeft="@+id/textResName"/>
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:text="원주시 단계동"
+        android:textSize="9sp"
+        android:textColor="#BBBBBB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgMapIcon"
+        android:layout_toRightOf="@+id/imgMapIcon"/>
+
+    <TextView
+        android:id="@+id/textTel"
+        android:text="033-766-8810"
+        android:textSize="15sp"
+        android:textColor="#777777"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="15dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFDD00"
+        android:layout_below="@+id/textAddress"
+        android:layout_marginTop="3dp"/>
+
+</RelativeLayout>
