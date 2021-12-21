@@ -10,7 +10,5 @@ public class myGroup {
         this.address = address;
         this.tel = tel;
         child = new ArrayList<String>();
-        child = new ArrayList<String>();
-        child = new ArrayList<String>();
     }
 }
