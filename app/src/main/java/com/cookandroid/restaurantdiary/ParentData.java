@@ -2,7 +2,7 @@ package com.cookandroid.restaurantdiary;
 
 import java.util.Vector;
 
-public class ParentData {
+public class ParentData {   // restaurant_list에 대한 class
     private String restName, address, tel;
 
     public Vector<Child> child;

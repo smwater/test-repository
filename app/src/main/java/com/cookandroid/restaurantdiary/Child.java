@@ -1,6 +1,6 @@
 package com.cookandroid.restaurantdiary;
 
-public class Child {
+public class Child {    //diary_list에 대한 class
     private String date, menu, friend;
 
     public Child(String date, String menu, String friend) {
