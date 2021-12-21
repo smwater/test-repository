@@ -1,9 +1,9 @@
 package com.cookandroid.restaurantdiary;
 
-public class DiaryListData {
+public class Child {
     private String date, menu, friend;
 
-    public DiaryListData(String date, String menu, String friend) {
+    public Child(String date, String menu, String friend) {
         this.date = date;
         this.menu = menu;
         this.friend = friend;
